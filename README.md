@@ -6,7 +6,9 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Library-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-VisionED is a full-stack **Student Performance Prediction System** built using **Flask** and **Machine Learning (Random Forest Regressor)**.
+An AI-powered platform that predicts student academic performance using **Machine Learning (Random Forest Regressor)** integrated into a **Flask-based web application**.
+
+VisionED is a full-stack **Student Performance Prediction System** developed for academic performance analysis and prediction.
 
 This project was developed as a **Minor Project** for  
 **New Government Polytechnic, Patna-13 (NGP)**.
@@ -14,8 +16,7 @@ This project was developed as a **Minor Project** for
 The system predicts end-semester academic outcomes (final marks and attendance) based on students' academic performance indicators.  
 The prediction model is trained using structured historical data (subject marks and attendance) from previous batches of students.
 
-VisionED provides a structured academic platform for administrators and students.
-It includes model training, performance analysis, study material management, announcements, and academic query handling.
+VisionED provides a structured academic platform for administrators and students, supporting model training, performance analysis, study material management, announcements, and academic query handling.
 
 ---
 
@@ -352,3 +353,11 @@ VisionED aims to:
 - Digitize academic analytics in institutions
 
 ⭐ If you found this project useful, consider starring the repository.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for more information.
