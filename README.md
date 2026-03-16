@@ -6,132 +6,142 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Library-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-An AI-powered platform that predicts student academic performance using **Machine Learning (Random Forest Regressor)** integrated into a **Flask-based web application**.
+VisionED is an **AI-powered Student Performance Prediction System** that uses **Machine Learning (Random Forest Regressor)** integrated into a **Flask-based web application**.
 
-VisionED is a full-stack **Student Performance Prediction System** developed for academic performance analysis and prediction.
+The system predicts **End-Semester Marks and Attendance** based on students' academic performance indicators such as previous marks and attendance.
 
-This project was developed as a **Minor Project** for  
+This project was developed as a **Minor Project** for
 **New Government Polytechnic, Patna-13 (NGP)**.
 
-The system predicts end-semester academic outcomes (final marks and attendance) based on students' academic performance indicators.  
-The prediction model is trained using structured historical data (subject marks and attendance) from previous batches of students.
-
-VisionED provides a structured academic platform for administrators and students, supporting model training, performance analysis, study material management, announcements, and academic query handling.
+VisionED provides a structured academic platform where students and administrators can manage **academic analytics, study materials, announcements, and academic queries**.
 
 ---
 
-## 🚀 Core Features
+# 🚀 Core Features
 
-- AI-based prediction of End-Semester Marks and Attendance  
-- Branch & Semester specific academic analysis  
-- Profile completion-based secure dashboard access  
-- Structured CSV-based academic data upload system  
-- Study material upload and management by Admin  
-- Announcement management system  
-- Academic query submission and Admin response system  
-- Role-based access control (Student / Admin / Super Admin)  
-- Student performance analytics dashboard  
+* AI-based prediction of End-Semester Marks and Attendance
+* Branch & Semester specific academic analysis
+* Profile completion-based secure dashboard access
+* Structured CSV-based academic data upload system
+* Study material upload and management by Admin
+* Announcement management system
+* Academic query submission and Admin response system
+* Role-based access control (Student / Admin / Super Admin)
+* Student performance analytics dashboard
 
 ---
 
-## 🖼️ Application Screenshots
+# 🖼️ Application Screenshots
 
-### 🏠 Home Page
-Landing page with role-based login & signup system.
+## 🏠 Home Page
+
+Landing page with role-based login and signup system.
 
 ![Home Page](https://github.com/user-attachments/assets/7b978ae6-47e2-47e2-88cd-7ee0cb9aeb0a)
 
 ---
 
-### 🎓 Student Dashboard
-Students can access prediction analysis, study materials, announcements, and queries.
+## 🎓 Student Dashboard
+
+Students can access prediction analysis, study materials, announcements, and academic queries.
 
 ![Student Dashboard](https://github.com/user-attachments/assets/66e50bfd-ace5-4bf7-9768-f994de18d9eb)
 
 ---
 
-### 👨‍🏫 Admin Dashboard
-Control panel to manage users, upload academic data, and train models.
+## 👨‍🏫 Admin Dashboard
+
+Administrative control panel used to manage users, upload academic data, and train prediction models.
 
 ![Admin Dashboard](https://github.com/user-attachments/assets/30b4d22d-023b-4db6-b105-40ad22b07de9)
 
 ---
 
-### 📂 Analytics Data Uploader
-Admin selects **Branch & Semester**, downloads the structured template, fills previous batch data (marks & attendance), and uploads it to train the model.
+## 📂 Analytics Data Uploader
+
+Admin selects **Branch and Semester**, downloads the structured template, fills previous batch data (marks & attendance), and uploads it to train the model.
 
 ![Analytics Uploader](https://github.com/user-attachments/assets/656003a4-3915-4a32-ab34-de07cadf517b)
 
 ---
 
-### 📊 Performance Analytics – Part 1
-Subject-wise prediction results generated using Random Forest Regressor.
+## 📊 Performance Analytics – Part 1
+
+Subject-wise prediction results generated using the **Random Forest Regressor** model.
 
 ![Performance Analysis 1](https://github.com/user-attachments/assets/9fe392da-4d74-4585-a3f5-3625c9a31302)
 
 ---
 
-### 📊 Performance Analytics – Part 2
+## 📊 Performance Analytics – Part 2
+
 Detailed analytics insights based on student academic inputs.
 
 ![Performance Analysis 2](https://github.com/user-attachments/assets/8a65b4ab-f507-4e76-bd76-2d56d18f750e)
 
 ---
 
-### 👥 Registered Users Management
-Admin interface to manage students and other administrators.
+## 👥 Registered Users Management
+
+Admin interface used to manage students and other administrators.
 
 ![Registered Users](https://github.com/user-attachments/assets/5d2983e1-2b60-4f4a-b52c-4547c79ff876)
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### 🔙 Backend
-- Python
-- Flask
-- Flask-SQLAlchemy
-- Werkzeug
+## Backend
 
-### 🤖 Machine Learning
-- Scikit-learn (Random Forest Regressor)
-- Pandas
-- NumPy
-- OpenPyXL
+* Python
+* Flask
+* Flask-SQLAlchemy
+* Werkzeug
 
-### 🎨 Frontend
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
+## Machine Learning
 
-### 🗄 Database
-- SQLite
+* Scikit-learn (Random Forest Regressor)
+* Pandas
+* NumPy
+* OpenPyXL
+
+## Frontend
+
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript
+
+## Database
+
+* SQLite
 
 ---
 
-## 🤖 Machine Learning Approach
+# 🤖 Machine Learning Approach
 
-The system uses Scikit-learn’s Random Forest Regressor to model nonlinear relationships between academic performance indicators and final end-semester outcomes.
+The system uses **Scikit-learn’s Random Forest Regressor** to model nonlinear relationships between academic indicators and final end-semester outcomes.
 
 ### 📥 Input Features
-- Previous Semester Marks
-- Previous Semester Attendance Percentage
-- Internal Subject Marks (entered by students during prediction)
+
+* Previous Semester Marks
+* Previous Semester Attendance Percentage
+* Internal Subject Marks (entered by students during prediction)
 
 ### 🎯 Target Variables
-- Final End-Semester Marks
-- Final End-Semester Attendance
 
-The model is trained separately for each Branch and Semester using structured historical academic data from previous batches.
+* Final End-Semester Marks
+* Final End-Semester Attendance
 
-Once trained, the model predicts both expected end-semester marks and expected attendance based on student academic inputs.
+The model is trained **separately for each Branch and Semester** using structured historical academic data from previous student batches.
+
+Once trained, the system predicts **expected end-semester marks and attendance** based on student academic inputs.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```text
+```text id="struct01"
 VisionED-performance-predictor/
 │
 ├── static/
@@ -167,77 +177,82 @@ VisionED-performance-predictor/
 
 ---
 
-## ⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/code2Renovate/VisionED-performance-predictor.git
+```bash id="clone01"
+git clone https://github.com/sagarcs818/VisionED-performance-predictor.git
 cd VisionED-performance-predictor
 ```
 
 ---
 
-### 2️⃣ Create Virtual Environment
+## 2️⃣ Create Virtual Environment
 
-#### Windows
-```bash
+### Windows
+
+```bash id="venvwin"
 python -m venv venv
 venv\Scripts\activate
 ```
 
-#### macOS / Linux
-```bash
+### macOS / Linux
+
+```bash id="venvunix"
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 ---
 
-### 3️⃣ Install Dependencies
+## 3️⃣ Install Dependencies
 
-```bash
+```bash id="install01"
 pip install -r requirements.txt
 ```
 
 ---
 
-### 4️⃣ Configure Secret Key
+## 4️⃣ Configure Secret Key
 
 Open `app.py` and update:
 
-```python
+```python id="secret01"
 app.secret_key = "your_strong_secret_key_here"
 ```
+
 🔐 This key is used to:
-- Secure login sessions
-- Protect admin authentication
-- Prevent session tampering
-- Enable flash messages
 
-Replace it with a strong random string  
-⚠️ If this key changes later, all users will be logged out automatically.  
+* Secure login sessions
+* Protect admin authentication
+* Prevent session tampering
+* Enable flash messages
 
----
+Replace it with a strong random string.
 
-### 5️⃣ Default Admin Codes (First Run)
-
-- Admin Signup Code: `1234`
-- Super Admin Code: `5678`
-
-These can be changed from the Admin Profile page.
+⚠ If this key changes later, all users will be logged out automatically.
 
 ---
 
-### 6️⃣ Run the Application
+## 5️⃣ Default Admin Codes (First Run)
 
-```bash
+* Admin Signup Code: `1234`
+* Super Admin Code: `5678`
+
+These can be changed later from the **Admin Profile Page**.
+
+---
+
+## 6️⃣ Run the Application
+
+```bash id="run01"
 python app.py
 ```
 
 ---
 
-### 7️⃣ Open in Browser
+## 7️⃣ Open in Browser
 
 ```
 http://127.0.0.1:5000/
@@ -245,118 +260,130 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🔄 System Workflow
+# 🔄 System Workflow
+
 The following diagram illustrates how users navigate through the system and how workflows are connected:
 
 ![Workflow diagram](https://github.com/user-attachments/assets/23a00a5b-0e33-47ed-9945-04fdd4c3ac4a)
 
-### 👨‍💼 Administrator Workflow
+---
 
-#### 🔐 Step 1: Registration & Access
+# 👨‍💼 Administrator Workflow
+
+## 🔐 Step 1: Registration & Access
+
 1. Register using the provided Admin Code
 2. Login to the system
 3. Complete required profile details
 4. Access the Admin Dashboard
 
-⚠ Profile completion is required to access dashboard features.
+⚠ **Profile completion is required to access dashboard features.**
 
 ---
 
-#### 📊 Step 2: Upload Historical Academic Data
+## 📊 Step 2: Upload Historical Academic Data
 
 1. From the Admin Dashboard, navigate to **Material Uploader**
 2. Select **Upload Analytics Data**
 3. Choose:
-   - Branch
-   - Semester
+
+   * Branch
+   * Semester
 4. Download the structured CSV template generated by the system
 
 The template includes required columns such as:
-- Previous Semester Marks
-- Attendance Percentage
-- Final End-Semester Marks
+
+* Previous Semester Marks
+* Attendance Percentage
+* Final End-Semester Marks
 
 ---
 
-#### 📂 Step 3: Train the Prediction Model
+## 📂 Step 3: Train the Prediction Model
 
-1. Fill the CSV template with historical data of previous student batches
-2. Ensure correct column structure
+1. Fill the CSV template with historical student data
+2. Ensure the column structure is correct
 3. Upload the completed CSV file
-4. The system trains the Random Forest model for the selected Branch & Semester
+4. The system trains the Random Forest model
 
-Once uploaded successfully, the system becomes ready to generate predictions for students of that branch and semester.
-
----
-
-#### 📚 Administrator Dashboard Capabilities
-
-After profile completion, teachers can:
-
-- 📂 Upload study materials (Branch & Semester specific)
-- 📢 Post announcements (Post / Edit / Delete)
-- ❓ Solve student queries
-- 👥 Manage registered users (View / Edit / Delete)
-- 📊 View student prediction analytics
-- 🛡 Super Admin privileges (Edit / Block / Delete Admins)
+Once uploaded successfully, the system becomes ready to generate predictions for students.
 
 ---
 
-### 👨‍🎓 Student Workflow
+## 📚 Administrator Dashboard Capabilities
 
-#### 🔐 Step 1: Registration & Access
+After profile completion, Administrators can:
+
+* 📂 Upload study materials
+* 📢 Post announcements
+* ❓ Respond to student queries
+* 👥 Manage registered users
+* 📊 View student prediction analytics
+* 🛡 Super Admin privileges for managing other admins
+
+---
+
+# 👨‍🎓 Student Workflow
+
+## 🔐 Step 1: Registration & Access
+
 1. Register as a Student
 2. Login to the system
 3. Complete academic profile:
-   - Branch
-   - Semester
 
-⚠ Profile completion is required to access dashboard features.
+   * Branch
+   * Semester
+
+⚠ **Profile completion is required to access dashboard features.**
 
 ---
 
-#### 📈 Step 2: Performance Analysis
+## 📈 Step 2: Performance Analysis
 
 Navigate to **Performance Analysis** and enter:
 
-- Internal Subject Marks
-- Previous Semester Marks
-- Previous Semester Attendance Percentage
+* Internal Subject Marks
+* Previous Semester Marks
+* Previous Semester Attendance Percentage
 
 ---
 
-#### 🤖 Step 3: AI-Based Prediction
+## 🤖 Step 3: AI-Based Prediction
 
-1. Submit the academic inputs
-2. The system uses the trained Random Forest model
-3. Predicted End-Semester Marks and End-Semester Attendance are displayed
-
----
-
-#### 📚 Student Dashboard Features
-
-After profile completion, students can:
-
-- 📊 Perform performance analysis
-- 📂 View & Download study materials uploaded by Admin
-- 📢 View announcements
-- ❓ Ask academic queries
-- 👍 Interact with posts (Like / Dislike / Reply)
+1. Submit academic inputs
+2. The system runs the trained Random Forest model
+3. Predicted End-Semester Marks and Attendance are displayed
 
 ---
 
-## 🎯 Project Objective
+## 📚 Student Dashboard Features
+
+After profile completion, Students can:
+
+* 📊 Perform performance analysis
+* 📂 View & download study materials
+* 📢 View announcements
+* ❓ Submit academic queries
+* 👍 Interact with posts (Like / Reply)
+
+---
+
+# 🎯 Project Objective
+
 VisionED aims to:
-- Identify students at academic risk early
-- Provide AI-based insights
-- Improve academic decision making
-- Digitize academic analytics in institutions
 
-⭐ If you found this project useful, consider starring the repository.
+* Identify students at academic risk early
+* Provide AI-based academic insights
+* Improve academic decision making
+* Digitize academic analytics in institutions
 
 ---
 
-## 📜 License
+⭐ If you found this project useful, consider **starring the repository**.
+
+---
+
+# 📜 License
 
 This project is licensed under the **MIT License**.
 
